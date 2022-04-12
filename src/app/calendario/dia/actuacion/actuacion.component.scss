@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+* {
+  font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 450px;
+  min-height: 210px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#dE685E, #EE786E);
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card .additional2 {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#92bCa6, #A2CCB6);
+  overflow: hidden;
+  z-index: 2;
+}
+
+.modalidad-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.modalidad-card-title{
+  top: 13%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modalidad-card-image {
+  top: 55%;
+  width: 70%; // 150 px width
+  height: 70%; // 250 px height
+  border-radius: 60px;
+}
+
+.modalidad-card-image img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.details-card {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.details-card-title{
+  margin: 5px 0 5px 0;
+  text-align: center;
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  // color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  text-decoration: underline;
+}
+
+.details-card-content {
+  margin: 0 1rem;
+}
+
+.details-card-content-card{
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+
+.details-card-icon img{
+  width: 30px;
+  height: 30px;
+}
+
+.details-card-footer {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(247, 228, 228);
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.details-card-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.details-card-footer-year{
+
+}
+
+.details-card-footer-nombre{
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  // color: #2b2b2b;
+  text-decoration: underline;
+}
+
+.details-card-footer-icon a{
+  color: red;
+}
+
+.footer-green{
+  background-color: #d7fde9;
+}
