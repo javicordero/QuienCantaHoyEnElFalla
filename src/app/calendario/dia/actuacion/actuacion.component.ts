@@ -7,7 +7,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 })
 export class ActuacionComponent implements OnInit {
   @Input() bgColor: string = ''
-  faGithubSquare = faYoutube
+  faYotube = faYoutube
   constructor() {}
 
   ngOnInit(): void {}
