@@ -16,14 +16,12 @@
   background: linear-gradient(#f8f8f8, #fff);
   background-color: #fff;
   border-radius: 6px;
-  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
   display: grid;
   grid-template-columns: 5fr 10fr 1fr;
   overflow: hidden;
   // margin: 1.5rem;
 }
-
-
 
 .card-details {
   grid-column: 2/4;
@@ -32,20 +30,20 @@
   padding-bottom: 0;
 }
 
-.card-details-title{
+.card-details-title {
   // color: #2b2b2b;
   font-family: 'Oleo Script', Helvetica, sans-serif;
   margin: 5px 0 5px 0;
   text-align: center;
   text-decoration: underline;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card-details-content {
   padding: 0 10px 0 10px;
 }
 
-.card-details-content-card{
+.card-details-content-card {
   align-items: center;
   display: flex;
   font-size: 1.2rem;
@@ -53,7 +51,7 @@
   margin-top: 5px;
 }
 
-.card-details-icon img{
+.card-details-icon img {
   width: 30px;
   height: 30px;
 }
@@ -70,28 +68,27 @@
   padding: 5px 0 5px 0;
 }
 
-.card-footer-year{
+.card-footer-year {
   grid-column: 1;
   text-align: center;
 }
 
-.card-footer-nombre{
+.card-footer-nombre {
   // color: #2b2b2b;
   grid-column: 2;
   padding: 0 0 0 10px;
 }
 
-.card-footer-nombre span{
+.card-footer-nombre span {
   font-family: 'Oleo Script', Helvetica, sans-serif;
   text-decoration: underline;
 }
 
-.card-footer-icon{
+.card-footer-icon {
   grid-column: 3;
   padding: 0 10px 0 0;
 }
 
-.card-footer-icon a{
+.card-footer-icon a {
   color: red;
 }
-
