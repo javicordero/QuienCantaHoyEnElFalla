@@ -14,6 +14,6 @@
     </div>
   </div> -->
   <div class="actuaciones-wrapper">
-    <app-agrupacion-card></app-agrupacion-card>
+    <app-agrupacion-card *ngFor="let agrupacion of agrupaciones" [agrupacion]="agrupacion"></app-agrupacion-card>
   </div>
 </div>

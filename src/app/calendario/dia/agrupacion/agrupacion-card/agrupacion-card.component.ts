@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Agrupacion } from './../../../../models/agrupacion.model'
+import { Component, Input, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-agrupacion-card',
@@ -6,10 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./agrupacion-card.component.scss']
 })
 export class AgrupacionCardComponent implements OnInit {
+  @Input() agrupacion!: Agrupacion
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

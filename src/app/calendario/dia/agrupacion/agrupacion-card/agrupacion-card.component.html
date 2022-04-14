@@ -1,14 +1,14 @@
 <div class="card">
-  <app-modalidad [modalidad]="'comparsa'" class="modalidad"></app-modalidad>
+  <app-modalidad [modalidad]="agrupacion.modalidad" class="{{ agrupacion.modalidad }}"></app-modalidad>
   <div class="card-details">
-    <h1 class="card-details-title">La Brigada</h1>
+    <h2 class="card-details-title">{{ agrupacion.nombre }}</h2>
     <div class="card-details-content">
       <div class="card-details-content-card">
         <div class="card-details-icon">
           <img src="assets/img/letrista.png" alt="letra" />
         </div>
         <div class="card-details-content-text">
-          <span>Constantino Tovar Verdejo </span>
+          <span>{{ agrupacion.letra }} </span>
         </div>
       </div>
       <div class="card-details-content-card">
@@ -16,7 +16,7 @@
           <img src="assets/img/musico.png" alt="musica" />
         </div>
         <div class="card-details-content-text">
-          <span>Constantino Tovar Verdejo</span>
+          <span>{{ agrupacion.musica }}</span>
         </div>
       </div>
       <div class="card-details-content-card">
@@ -24,10 +24,10 @@
           <img src="assets/img/batuta.png" alt="direccion" />
         </div>
         <div class="card-details-content-text">
-          <span>Ángel Subiela</span>
+          <span>{{ agrupacion.direccion }}</span>
         </div>
       </div>
     </div>
   </div>
-  <app-footer class="footer"></app-footer>
+  <app-footer class="footer" [agrupacion]="agrupacion"></app-footer>
 </div>

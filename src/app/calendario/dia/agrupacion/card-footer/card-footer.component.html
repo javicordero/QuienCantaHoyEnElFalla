@@ -1,9 +1,11 @@
 <div class="card-footer">
-  <div class="card-footer-year"><span>2020</span></div>
+  <div class="card-footer-year">
+    <span>{{ agrupacion.yearAnterior }}</span>
+  </div>
   <div class="card-footer-nombre">
-    <span>¡Oh capitán, my capitán!</span>
+    <span>{{ agrupacion.nombreAnterior }}</span>
   </div>
   <div class="card-footer-icon">
-    <a href="https://www.youtube.com/watch?v=QN-DOx-nW3U" target="blank"><fa-icon [icon]="faYotube"></fa-icon></a>
+    <a href="{{ agrupacion.enlaceYoutubeAnterior }}" target="blank"><fa-icon [icon]="faYotube"></fa-icon></a>
   </div>
 </div>
