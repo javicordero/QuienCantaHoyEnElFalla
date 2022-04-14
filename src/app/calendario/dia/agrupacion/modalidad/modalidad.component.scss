@@ -18,7 +18,9 @@
 }
 
 .card-modalidad-image {
-  margin-top: 5px;
+  display: flex;
+  height: calc(100% - 35px); // 35 px es el alto del titulo
+  justify-content: center;
 }
 
 .card-modalidad-image img {
