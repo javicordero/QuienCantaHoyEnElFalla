@@ -1,6 +1,5 @@
 .card-footer {
   align-items: center;
-  background: rgb(247, 228, 228);
   font-size: 1.3rem;
   font-weight: 600;
   display: grid;
@@ -33,3 +32,21 @@
 .card-footer-icon a {
   color: red;
 }
+
+
+.bg-red{
+  background: rgb(247, 228, 228);
+}
+
+.bg-green{
+  background: rgb(228, 247, 228);
+}
+
+.bg-blue{
+  background: rgb(228, 247, 247);
+}
+
+.bg-brown{
+  background: rgba(97, 37, 37, 0.225)
+}
+

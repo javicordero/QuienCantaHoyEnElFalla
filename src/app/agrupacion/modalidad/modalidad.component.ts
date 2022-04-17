@@ -15,7 +15,7 @@ export class ModalidadComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadImage()
-    this.loadColor()
+    this.loadBgColor()
   }
 
   loadImage(): void {
@@ -37,7 +37,7 @@ export class ModalidadComponent implements OnInit {
     }
   }
 
-  loadColor(): void {
+  loadBgColor(): void {
     if (this.modalidad === 'comparsa') {
       this.bgClass = 'bg-red'
     }
