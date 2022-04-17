@@ -1,4 +1,4 @@
-import { Agrupacion } from './../../../../models/agrupacion.model'
+import { Agrupacion } from './../../models/agrupacion.model'
 import { Component, Input, OnInit } from '@angular/core'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 @Component({

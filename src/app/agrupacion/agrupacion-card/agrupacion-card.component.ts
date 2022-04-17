@@ -1,4 +1,4 @@
-import { Agrupacion } from './../../../../models/agrupacion.model'
+import { Agrupacion } from 'src/app/models/agrupacion.model'
 import { Component, Input, OnInit } from '@angular/core'
 
 @Component({
